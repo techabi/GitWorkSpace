@@ -47,10 +47,5 @@ public class SimpleArray {
                            + myArray[9]);*/
         
         System.out.println("Complete Array :"+myArray);
-        
-        //We can also iterate an array by for loop 
-        for (int i = 0; i < myArray.length; i++) {
-			System.out.println("Position " +i+ " Holding Value :" + myArray[i]);
-		}
     }
 }
