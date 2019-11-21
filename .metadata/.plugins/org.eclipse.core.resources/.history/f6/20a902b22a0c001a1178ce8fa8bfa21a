@@ -1,21 +1,19 @@
 package basicJava;
 
 /**
+ * SIB(Static Initialization Block) executes when the class gets loaded 
+ * and executes only once in entire execution no matter how many objects of that type you create.
+ * A class can have any number of SIB like IIB are, and can be placed anywhere in the class body.
+ * A SIB is enclosed in braces, { }, and preceded by the static keyword.
+ * A static initialization block resembles a method with no name, no arguments, and no return type. 
+ * It doesn't need a name, because there is no need to refer to it from outside the class definition.
+ * A static initialization block cannot contain a return statement like a constructor.
+ * Static initialization block doesn't have an argument list.
  * 
- Instance Initialization Blocks or IIB are used to initialize instance
- * variables. It executed before constructors. IIBs run each time when object of
- * the class is created. They are typically placed above the constructors within
- * braces.We can also have multiple IIBs in a single class which will execute
- * from top to bottom . The Instance Initialization Block is invoked after the
- * parent class constructor is invoked (i.e. after super() constructor call).
- * inclusion of IIBs in your classes is not necessary.
- * 
- * In case of both SIB(Static Initialization Block) & IIB in a Class , SIB initialized first 
- * because they load at class loading time while IIb load at object creation time.
- *
+ * In case of both SIB & IIB in a Class SIB initialized first coz they load at class loading time while 
+ * IIb load at object creation time.
  */
-class IIB extends Parent {
-
+public class SIB extends Parent {
 	// IIB - 4 before constructor of Child's Constructor
 	{
 		System.out.println("Childs Initialization Block -4 ");
@@ -57,6 +55,4 @@ class Parent {
 	// IIB - 3 after constructor to see how it executes
 	{
 		System.out.println("Initialization Block -3 ");
-	}
-
-}
+	}}

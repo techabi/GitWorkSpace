@@ -1,0 +1,17 @@
+package basicJava;
+
+
+/**
+ * SIB(Static Initialization Block) executes when the class gets loaded 
+ * and executes only once in entire execution no matter how many objects of that type you create.
+ * A class can have any number of SIB like IIB are, and can be placed anywhere in the class body.
+ * A SIB is enclosed in braces, { }, and preceded by the static keyword.
+ */
+public class SIB {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

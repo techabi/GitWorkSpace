@@ -9,9 +9,6 @@ package basicJava;
  * from top to bottom . The Instance Initialization Block is invoked after the
  * parent class constructor is invoked (i.e. after super() constructor call).
  * inclusion of IIBs in your classes is not necessary.
- * 
- * In case of both SIB(Static Initialization Block) & IIB in a Class , SIB initialized first 
- * because they load at class loading time while IIb load at object creation time.
  *
  */
 class IIB extends Parent {
