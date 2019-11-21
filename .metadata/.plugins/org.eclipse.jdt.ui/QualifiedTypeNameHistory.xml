@@ -1,2 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="basicJava.SIB_IIB.Child"/>
+<fullyQualifiedTypeName name="basicJava.SIB_IIB"/>
+<fullyQualifiedTypeName name="basicJava.Parent"/>
+<fullyQualifiedTypeName name="multiThreading.Price"/>
+<fullyQualifiedTypeName name="multiThreading.Product"/>
+</qualifiedTypeNameHistroy>
