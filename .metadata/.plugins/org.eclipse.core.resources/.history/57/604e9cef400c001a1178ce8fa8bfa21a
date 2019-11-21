@@ -1,0 +1,3 @@
+Synchronizing Method & Block-
+  Synchronization of the shared resources is needed to  ensure that at a time only one thread is able to access the shared resource.
+  If an Object is shared by multiple threads then there is need of synchronization in order to avoid the Object’s state to be getting corrupted. Synchronization is needed when Object is mutable. If shared Object is immutable or all the threads which share the same Object are only reading the Object’s state not modifying then you don’t need to synchronize it.
