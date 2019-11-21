@@ -1,0 +1,42 @@
+package basic;
+
+
+/**
+ * 
+ Instance Initialization Blocks or IIB are used to initialize instance variables.
+ IIBs are executed before constructors.
+ IIBs run each time when object of the class is created..
+ They are typically placed above the constructors within braces.
+ inclusion of  IIBs in your classes is not necessary.
+ We can also have multiple IIBs in a single class which will execute from top to bottom . 
+ *
+ */
+public class SIB_IIB {
+
+	{
+		System.out.println("Initialization Block -1 ");
+	}
+	
+	{
+		System.out.println("Initialization Block -2 ");
+	}
+	
+	{
+		System.out.println("Initialization Block -3 ");
+	}
+	
+	public SIB_IIB() {
+		System.out.println("Constucture  called");
+	}
+	
+	{
+		System.out.println("Initialization Block -4 ");
+	}
+	
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}
