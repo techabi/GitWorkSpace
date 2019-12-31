@@ -1,2 +1,0 @@
-Synchronizing Method & Block-
-We need to synchronize the shared resources to ensure that at a time only one thread is able to access the shared resource.
