@@ -22,7 +22,7 @@ class IIB extends Parent {
 	}
 
 	public IIB() {
-		super();
+		//super();
 		System.out.println("CHILD -Constucture  called for Initialisation");
 	}
 
