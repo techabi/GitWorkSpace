@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename type &apos;arrayTest.LargestInArray&apos; to &apos;LargestNumberInArray&apos;&#x0D;&#x0A;- Original project: &apos;DS&apos;&#x0D;&#x0A;- Original element: &apos;arrayTest.LargestInArray&apos;&#x0D;&#x0A;- Renamed element: &apos;arrayTest.LargestNumberInArray&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Rename similarly named elements&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;LargestInArray&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;arrayTest{LargestInArray.java[LargestInArray" matchStrategy="1" name="LargestNumberInArray" qualified="false" references="true" similarDeclarations="true" stamp="1574829166509" textual="false" version="1.0"/>
-</session>

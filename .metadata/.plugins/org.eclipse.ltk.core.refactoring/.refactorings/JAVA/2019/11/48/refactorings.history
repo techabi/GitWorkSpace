@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename field &apos;name&apos; in &apos;basicJava.Imutable&apos; to &apos;empName&apos;&#x0D;&#x0A;- Original project: &apos;JAVA&apos;&#x0D;&#x0A;- Original element: &apos;basicJava.Imutable.name&apos;&#x0D;&#x0A;- Renamed element: &apos;basicJava.Imutable.empName&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" delegate="false" deprecate="false" description="Rename field &apos;name&apos;" flags="589826" getter="false" id="org.eclipse.jdt.ui.rename.field" input="/src&lt;basicJava{Imutable.java[Imutable^name" name="empName" references="true" setter="false" stamp="1575006850785" textual="false" version="1.0"/>
-</session>
